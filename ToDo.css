@@ -1,0 +1,60 @@
+body {
+    font-family: 'Indie Flower', serif;
+    color: #000;
+    background-color: #523F20
+}
+p{
+    margin: 10px 0;
+    padding: 5px 10px
+    color white;
+    border: 10px solid #6A4C11;
+    border-left-width: 10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Indie Flower'
+}
+.wrapper{
+    width: 40%;
+    margin: 5px auto;
+    padding: 2px;
+    background-color: #826A2C;
+}
+.wrapper > div > button {
+    background: #996031;
+    color: #000;
+    width: 100%;
+    border: 5px solid #6D402F;
+    padding: 10px;
+    font-family: 'Indie Flower', serif;
+    font-size: 18pt;
+}
+.input_area {
+    background-color: #D19C4F;
+    min-height: 40px;
+    width: 100%;
+    padding: 5px 5px 0px 5px;
+    border: 5px solid #A67C3F;
+    font-family: 'Indie Flower', serif;
+    font-size: 14pt;
+    resize: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.item {
+    font-size: 18pt;
+    padding: 5px;
+    background-color: #5E4628;
+    border-bottom: 5px solid #6D402F;
+    border-left: 5px solid #6D402F;
+    border-right: 5px solid #6D402F;
+    width: 85%;
+    margin-left: 5.9%;
+}
+div {
+    display: block;
+}
+title{
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+}
