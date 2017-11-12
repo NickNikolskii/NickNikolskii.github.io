@@ -7,7 +7,7 @@ $(document).ready(function () {
     });
 
     $(item).dblclick(function () {
-        $(this).toggleClass("line-through");
+        $(this).remove();
     });
 
     $()
