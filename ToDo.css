@@ -20,7 +20,7 @@ h1{
     padding: 2px;
     background-color: #826A2C;
 }
-.wrapper > div > button {
+.wrapper > div > button(value = "add") {
     background: #996031;
     color: #000;
     width: 100%;
@@ -29,7 +29,7 @@ h1{
     font-family: 'Indie Flower', serif;
     font-size: 18pt;
 }
-.wrapper > div > button1 {
+.wrapper > div > button {
     background: #996031;
     color: #000;
     width: 10%;
