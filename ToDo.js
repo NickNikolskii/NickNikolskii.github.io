@@ -6,9 +6,9 @@ $(document).ready(function () {
         $('input').val("");
     });
 
-    $("#test").dblclick(function () {
-        alert("!!!");
+    $(item).dblclick(function () {
         $(this).toggleClass("line-through");
     });
 
+    $()
 });
