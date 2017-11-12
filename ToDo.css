@@ -29,6 +29,15 @@ h1{
     font-family: 'Indie Flower', serif;
     font-size: 18pt;
 }
+.wrapper > div > button1 {
+    background: #996031;
+    color: #000;
+    width: 10%;
+    border: 3px solid #6D402F;
+    padding: 10px;
+    font-family: 'Indie Flower', serif;
+    font-size: 8pt;
+}
 .input_area {
     background-color: #D19C4F;
     min-height: 40px;
