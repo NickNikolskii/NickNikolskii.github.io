@@ -2,11 +2,11 @@ $(document).ready(function () {
 
     $('.wrapper > div > button').click(function () {
         var a = $('input').val();
-        $('.item_list').append('<div id="test" class="item">' + a + '</div>');
+        $('.item_list').append('<div id="a" class="item">' + a + '</div>');
         $('input').val("");
     });
 
-    $(item_list).dblclick(function () {
+    $(item id="a").click(function () {
         $(this).remove();
     });
 
