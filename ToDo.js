@@ -1,15 +1,14 @@
 $(document).ready(function () {
 
-    $('.wrapper > div > button value = "add"').click(function () {
+    $('.wrapper > div > button').click(function () {
         var a = $('input').val();
-        $('.item_list').append('<div id="a" class="item">' + a + '</div>' + <button value = "remove"> + <"Udalit'"> + <button>);
-        
+        $('.item_list').append('<div id="test" class="item">' + a + '</div>');
         $('input').val("");
     });
 
-    $(item).click(function () {
-        $(this).remove();
+    $("#test").dblclick(function () {
+        alert("!!!");
+        $(this).toggleClass("line-through");
     });
 
-    $()
 });
