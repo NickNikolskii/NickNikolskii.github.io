@@ -6,7 +6,7 @@ $(document).ready(function () {
         $('input').val("");
     });
 
-    $(item).dblclick(function () {
+    $(item_list).dblclick(function () {
         $(this).remove();
     });
 
