@@ -6,7 +6,7 @@ $(document).ready(function () {
         $('input').val("");
     });
 
-    $("item").dblclick(function () {
+    $('').dblclick(function () {
         alert("Udalis' uje");
         $(this).toggleClass("line-through");
     });
