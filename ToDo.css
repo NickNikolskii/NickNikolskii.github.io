@@ -16,6 +16,7 @@ ul li.checked::before{
 
 ul li.checked{
     background: rgb(185, 129, 64);
+    color: #000000
     text-decoration: line-through;
 }
 
