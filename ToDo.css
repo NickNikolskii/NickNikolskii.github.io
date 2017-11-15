@@ -9,7 +9,7 @@ body{
     background-color: #826A2C;
 }
 
-ul li.cheked{
+ul li.checked{
     background: rgb(185, 129, 64);
     text-decoration: line-through;
 }
