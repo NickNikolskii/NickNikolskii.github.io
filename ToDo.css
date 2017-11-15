@@ -9,6 +9,11 @@ body{
     background-color: #826A2C;
 }
 
+ul li.cheked{
+    background: rgb(185, 129, 64);
+    text-decoration: line-through;
+}
+
 h1{
     font-size: 32px;
     text-align: center;
