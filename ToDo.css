@@ -21,10 +21,6 @@ ul li {
     user-select: none;
 }
 
-ul li:nth-child(odd) {
-    background: #f9f9f9;
-}
-
 ul li:hover {
     background: #ddd;
 }
