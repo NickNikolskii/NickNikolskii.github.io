@@ -1,25 +1,5 @@
-body{
-    background-color: #523F20
-}
-
-.wrapper{
-    width: 40%;
-    margin: 5px auto;
-    padding: 2px;
-    background-color: #826A2C;
-}
-
-
-
-ul li.checked::before{
-    content: '';
-    position: absolute;
-}
-
-ul li.checked{
-    background: rgb(185, 129, 64);
-    color: #000000
-    text-decoration: line-through;
+* {
+    box-sizing: border-box;
 }
 
 h1{
@@ -47,13 +27,42 @@ ul li {
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
-    background: rgb(185, 129, 64);
+    background: rgb(160, 104, 1);
     font-size: 18px;
-    font-family: 'Indie Flower'
+    transition: 0.2s;
+    font-family: 'Indie Flower';
+
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: rgb(160, 104, 1);
+}
+
+ul li:hover {
+    background: rgb(160, 104, 1);
+}
+
+ul li.checked {
+    background: rgb(100, 64, 4);
+    color: #fff;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: rgb(150, 114, 1);
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
 }
 
 .close {
@@ -63,10 +72,15 @@ ul li {
     padding: 12px 16px 12px 16px;
 }
 
+.close:hover {
+    background-color: #96651d;
+    color: white;
+}
+
 .header {
-    font-family: 'Indie Flower', serif;
+    font-family: 'Indie Flower';
+    background-color: #96651d;
     padding: 30px 40px;
-    background-color: #8a5715;
     color: white;
     text-align: center;
 }
@@ -78,21 +92,27 @@ ul li {
 }
 
 input {
-    background-color: #D19C4F;
-    width: 50%;
+    border: none;
+    width: 75%;
     padding: 10px;
     float: left;
-    font-size: 10pt;
-    font-family: 'Indie Flower'
+    font-size: 16px;
+    font-family: 'Indie Flower';
 }
 
 .addBtn {
-    font-family: 'Indie Flower', serif;
     padding: 10px;
     width: 25%;
-    background: #4b3905;
+    background: #5e440c;
     color: rgb(255, 255, 255);
     float: left;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Indie Flower', serif;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
 }
