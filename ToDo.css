@@ -16,6 +16,10 @@ ul li {
     transition: 0.2s;
 }
 
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
 ul li.checked {
     background: #888;
     color: #fff;
